@@ -1,0 +1,75 @@
+@import url('login.css');
+@import url('registr.css');
+@import url('reg_apps.css');
+@import url('admin.css');
+
+:root{
+    --blue:#1f4390;
+    --blue-light: rgba(100, 173, 255, 0.2);
+    --gray: rgb(116, 112, 112);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #000000;
+    overflow-wrap:break-word; /*перенос любых слов на другую строку*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.nav>ul{
+    margin-top: 3rem;
+    display: flex;
+}
+
+.nav>ul>li{
+    list-style-type: none;
+    margin-right: 1.3rem;
+}
+
+.nav>ul>li>a{
+    font-size: 1.2rem;
+    color: var(--blue);
+    text-decoration: none;
+}
+.nav>ul>li>a:hover{
+    border-bottom: 3px solid var(--blue);
+}
+
+#submit{
+    background-color: var(--blue-light);
+    font-size: 1.2rem;
+    height: 2.2rem;
+    width: 10rem;
+    border-radius: 5px;
+
+}
+
+#submit:hover{
+    background-color: rgba(241, 241, 241, 0.418);
+}
+
+

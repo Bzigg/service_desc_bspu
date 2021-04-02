@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Новая заявка</title>
+    <link rel="stylesheet" href="style/core.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <div class="container">
+            <div class="header_inner">
+                <div class="title_logo">
+                    <img class="logo" src="images/logo-bspu-blue.png" alt="logo-bspu">
+                    <div class="title_txt">
+                        БГПУ<br>им. М. Акмуллы
+                    </div>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Все заявки</a></li>
+                        <li><a href="#">Новый пользователь</a></li>
+                        <li><a href="#">Выход</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main_inner">
+                <p>Пользователь: Павлов Никита</p>
+                <div class="reg_window">
+                    
+                    <form class="form_apps" action="" method="post" >
+                        <h3>Новая заявка</h3>
+                        <p>Заказчик: <input type="text" name="fio" id="fio" placeholder="ФИО" required></p>
+                        <p>
+                            Расположение:    <input type="text" name="build" placeholder="Корпус" required> 
+                                             <input type="text" name="cabinet" placeholder="Кабинет" required>
+                        </p>
+                        <p>Комментарий:</p>
+                        <textarea name="comment" id="" cols="58" rows="5" required></textarea>
+                        <p>
+                            Системный администратор: 
+                                <select name="adm" id="adm" required>
+                                    <option value="1">Иван</option>
+                                    <option value="2">Максим</option>
+                                </select>
+                        </p>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer_inner">
+                <div class="official">
+                    <a href="#" class="off_site">
+                        <img src="images/logo-bspu-w.png" alt="logo-bspu" class="logo_footer">
+                        <div class="official_txt">
+                            Официальный сайт <br>
+                            БГПУ им. М. Акмуллы
+                        </div>
+                    </a>
+                </div>
+                <div class="support">
+                    <a href="mailto:openedu@bspu.ru" class="support_link">
+                        Написать администраторам
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

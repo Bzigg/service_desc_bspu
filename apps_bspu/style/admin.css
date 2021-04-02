@@ -1,0 +1,46 @@
+.main_inner>h3{
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+.new_app{
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+    border-bottom: none;
+    grid-gap: 0;
+
+    
+}
+
+.grid_block{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0;
+
+
+	/* grid-column-gap: 10px;  задаем промежуток между столбцами в макете сетки
+	grid-row-gap: 10px;  задаем промежуток между столбцами в макете сетки */
+    
+}
+.grid_block>div{
+    border-bottom: 1px solid var(--gray);
+    border-right: 1px solid var(--gray);
+    grid-gap: 0;
+
+    padding: 3px;
+}
+
+.grid_block>form{
+    text-align: center;
+}
+
+#ok{
+    width: 7rem;
+    height: 2rem;
+    background-color: rgba(133, 180, 241, 0.507);
+    border: 1px solid rgba(133, 180, 241, 0.507);
+    border-radius: 5px;
+}
+#ok:hover{
+    background-color: rgba(153, 153, 153, 0.561);
+}
